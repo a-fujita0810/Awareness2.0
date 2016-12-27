@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63075F131E10FECF0076F408"
-               BuildableName = "Awareness_2.0"
-               BlueprintName = "Awareness_2.0"
+               BlueprintIdentifier = "63075F3D1E10FFD30076F408"
+               BuildableName = "Make"
+               BlueprintName = "Make"
                ReferencedContainer = "container:Awareness_2.0.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63075F131E10FECF0076F408"
-            BuildableName = "Awareness_2.0"
-            BlueprintName = "Awareness_2.0"
-            ReferencedContainer = "container:Awareness_2.0.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,21 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63075F131E10FECF0076F408"
-            BuildableName = "Awareness_2.0"
-            BlueprintName = "Awareness_2.0"
+            BlueprintIdentifier = "63075F3D1E10FFD30076F408"
+            BuildableName = "Make"
+            BlueprintName = "Make"
             ReferencedContainer = "container:Awareness_2.0.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "commandline/simulation_xcode.config"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +66,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63075F131E10FECF0076F408"
-            BuildableName = "Awareness_2.0"
-            BlueprintName = "Awareness_2.0"
+            BlueprintIdentifier = "63075F3D1E10FFD30076F408"
+            BuildableName = "Make"
+            BlueprintName = "Make"
             ReferencedContainer = "container:Awareness_2.0.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

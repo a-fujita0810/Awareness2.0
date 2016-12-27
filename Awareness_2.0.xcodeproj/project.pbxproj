@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63075F181E10FECF0076F408 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63075F171E10FECF0076F408 /* main.cpp */; };
+		63075F361E10FF2A0076F408 /* its_app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63075F201E10FF2A0076F408 /* its_app.cpp */; };
+		63075F371E10FF2A0076F408 /* its_app.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 63075F221E10FF2A0076F408 /* its_app.o */; };
+		63075F381E10FF2A0076F408 /* sim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63075F2B1E10FF2A0076F408 /* sim.cpp */; };
+		63075F391E10FF2A0076F408 /* sim.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 63075F2C1E10FF2A0076F408 /* sim.o */; };
+		63075F3A1E10FF2A0076F408 /* wave_app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63075F301E10FF2A0076F408 /* wave_app.cpp */; };
+		63075F3B1E10FF2A0076F408 /* wave_app.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 63075F321E10FF2A0076F408 /* wave_app.o */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,30 @@
 
 /* Begin PBXFileReference section */
 		63075F141E10FECF0076F408 /* Awareness_2.0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Awareness_2.0; sourceTree = BUILT_PRODUCTS_DIR; };
-		63075F171E10FECF0076F408 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		63075F1E1E10FF2A0076F408 /* bsm_app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bsm_app.h; path = Awareness_2.0/bsm_app.h; sourceTree = "<group>"; };
+		63075F1F1E10FF2A0076F408 /* common_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common_math.h; path = Awareness_2.0/common_math.h; sourceTree = "<group>"; };
+		63075F201E10FF2A0076F408 /* its_app.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = its_app.cpp; path = Awareness_2.0/its_app.cpp; sourceTree = "<group>"; };
+		63075F211E10FF2A0076F408 /* its_app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = its_app.h; path = Awareness_2.0/its_app.h; sourceTree = "<group>"; };
+		63075F221E10FF2A0076F408 /* its_app.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = its_app.o; path = Awareness_2.0/its_app.o; sourceTree = "<group>"; };
+		63075F231E10FF2A0076F408 /* its_extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = its_extension.h; path = Awareness_2.0/its_extension.h; sourceTree = "<group>"; };
+		63075F241E10FF2A0076F408 /* its_queues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = its_queues.h; path = Awareness_2.0/its_queues.h; sourceTree = "<group>"; };
+		63075F251E10FF2A0076F408 /* makefile.common */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = makefile.common; path = Awareness_2.0/makefile.common; sourceTree = "<group>"; };
+		63075F261E10FF2A0076F408 /* makefile.linux */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = makefile.linux; path = Awareness_2.0/makefile.linux; sourceTree = "<group>"; };
+		63075F271E10FF2A0076F408 /* makefile.util.linux */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = makefile.util.linux; path = Awareness_2.0/makefile.util.linux; sourceTree = "<group>"; };
+		63075F281E10FF2A0076F408 /* makefile.util.win */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = makefile.util.win; path = Awareness_2.0/makefile.util.win; sourceTree = "<group>"; };
+		63075F291E10FF2A0076F408 /* makefile.win */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = makefile.win; path = Awareness_2.0/makefile.win; sourceTree = "<group>"; };
+		63075F2A1E10FF2A0076F408 /* scenargie_setting.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = scenargie_setting.txt; path = Awareness_2.0/scenargie_setting.txt; sourceTree = "<group>"; };
+		63075F2B1E10FF2A0076F408 /* sim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sim.cpp; path = Awareness_2.0/sim.cpp; sourceTree = "<group>"; };
+		63075F2C1E10FF2A0076F408 /* sim.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = sim.o; path = Awareness_2.0/sim.o; sourceTree = "<group>"; };
+		63075F2D1E10FF2A0076F408 /* simulation.trace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = simulation.trace; path = Awareness_2.0/simulation.trace; sourceTree = "<group>"; };
+		63075F2E1E10FF2A0076F408 /* simulation.trace.idx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = simulation.trace.idx; path = Awareness_2.0/simulation.trace.idx; sourceTree = "<group>"; };
+		63075F2F1E10FF2A0076F408 /* vehicle_detection_sensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vehicle_detection_sensor.h; path = Awareness_2.0/vehicle_detection_sensor.h; sourceTree = "<group>"; };
+		63075F301E10FF2A0076F408 /* wave_app.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wave_app.cpp; path = Awareness_2.0/wave_app.cpp; sourceTree = "<group>"; };
+		63075F311E10FF2A0076F408 /* wave_app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wave_app.h; path = Awareness_2.0/wave_app.h; sourceTree = "<group>"; };
+		63075F321E10FF2A0076F408 /* wave_app.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = wave_app.o; path = Awareness_2.0/wave_app.o; sourceTree = "<group>"; };
+		63075F331E10FF2A0076F408 /* wave_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wave_mac.h; path = Awareness_2.0/wave_mac.h; sourceTree = "<group>"; };
+		63075F341E10FF2A0076F408 /* wave_net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wave_net.h; path = Awareness_2.0/wave_net.h; sourceTree = "<group>"; };
+		63075F351E10FF2A0076F408 /* wave_tracedefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wave_tracedefs.h; path = Awareness_2.0/wave_tracedefs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63075F371E10FF2A0076F408 /* its_app.o in Frameworks */,
+				63075F391E10FF2A0076F408 /* sim.o in Frameworks */,
+				63075F3B1E10FF2A0076F408 /* wave_app.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +72,30 @@
 		63075F0B1E10FECF0076F408 = {
 			isa = PBXGroup;
 			children = (
+				63075F1E1E10FF2A0076F408 /* bsm_app.h */,
+				63075F1F1E10FF2A0076F408 /* common_math.h */,
+				63075F201E10FF2A0076F408 /* its_app.cpp */,
+				63075F211E10FF2A0076F408 /* its_app.h */,
+				63075F221E10FF2A0076F408 /* its_app.o */,
+				63075F231E10FF2A0076F408 /* its_extension.h */,
+				63075F241E10FF2A0076F408 /* its_queues.h */,
+				63075F251E10FF2A0076F408 /* makefile.common */,
+				63075F261E10FF2A0076F408 /* makefile.linux */,
+				63075F271E10FF2A0076F408 /* makefile.util.linux */,
+				63075F281E10FF2A0076F408 /* makefile.util.win */,
+				63075F291E10FF2A0076F408 /* makefile.win */,
+				63075F2A1E10FF2A0076F408 /* scenargie_setting.txt */,
+				63075F2B1E10FF2A0076F408 /* sim.cpp */,
+				63075F2C1E10FF2A0076F408 /* sim.o */,
+				63075F2D1E10FF2A0076F408 /* simulation.trace */,
+				63075F2E1E10FF2A0076F408 /* simulation.trace.idx */,
+				63075F2F1E10FF2A0076F408 /* vehicle_detection_sensor.h */,
+				63075F301E10FF2A0076F408 /* wave_app.cpp */,
+				63075F311E10FF2A0076F408 /* wave_app.h */,
+				63075F321E10FF2A0076F408 /* wave_app.o */,
+				63075F331E10FF2A0076F408 /* wave_mac.h */,
+				63075F341E10FF2A0076F408 /* wave_net.h */,
+				63075F351E10FF2A0076F408 /* wave_tracedefs.h */,
 				63075F161E10FECF0076F408 /* Awareness_2.0 */,
 				63075F151E10FECF0076F408 /* Products */,
 			);
@@ -57,12 +112,28 @@
 		63075F161E10FECF0076F408 /* Awareness_2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				63075F171E10FECF0076F408 /* main.cpp */,
 			);
 			path = Awareness_2.0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		63075F3D1E10FFD30076F408 /* Make */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-f makefile.linux ITS_MODULE=ON";
+			buildConfigurationList = 63075F401E10FFD30076F408 /* Build configuration list for PBXLegacyTarget "Make" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/Atsushi_Fujita/scenargie_simulator/2.1/source/its_modify/Awareness_2.0/Awareness_2.0;
+			dependencies = (
+			);
+			name = Make;
+			passBuildSettingsInEnvironment = 1;
+			productName = Make;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		63075F131E10FECF0076F408 /* Awareness_2.0 */ = {
@@ -94,6 +165,9 @@
 					63075F131E10FECF0076F408 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					63075F3D1E10FFD30076F408 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 63075F0F1E10FECF0076F408 /* Build configuration list for PBXProject "Awareness_2.0" */;
@@ -109,6 +183,7 @@
 			projectRoot = "";
 			targets = (
 				63075F131E10FECF0076F408 /* Awareness_2.0 */,
+				63075F3D1E10FFD30076F408 /* Make */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +193,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63075F181E10FECF0076F408 /* main.cpp in Sources */,
+				63075F361E10FF2A0076F408 /* its_app.cpp in Sources */,
+				63075F381E10FF2A0076F408 /* sim.cpp in Sources */,
+				63075F3A1E10FF2A0076F408 /* wave_app.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +295,29 @@
 			};
 			name = Release;
 		};
+		63075F3E1E10FFD30076F408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63075F3F1E10FFD30076F408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -235,6 +335,15 @@
 			buildConfigurations = (
 				63075F1C1E10FECF0076F408 /* Debug */,
 				63075F1D1E10FECF0076F408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63075F401E10FFD30076F408 /* Build configuration list for PBXLegacyTarget "Make" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63075F3E1E10FFD30076F408 /* Debug */,
+				63075F3F1E10FFD30076F408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
